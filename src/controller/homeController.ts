@@ -5,5 +5,5 @@ export const helloWorld = (ctx: Context, next: Next) => {
 };
 
 export const vercelHelloWorld = (ctx: Context, next: Next) => {
-  ctx.body = 'hello vercel';
+  ctx.body = 'hello world vercel';
 };
