@@ -30,3 +30,6 @@ app.on('error', (err, ctx) => {
 });
 //@ts-ignore
 app.listen(3000, () => console.log('listening on port', config.PORT));
+
+//this is for vercel deployment
+export default app;
